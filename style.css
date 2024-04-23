@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-backgrund: #000;
+  --text-color: #FFF;
+  --green-500: #06181C;
+  --green-900: #030B0D;
+  --bg-button: #065E7C;
+} 
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg-backgrund);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 11.5rem 0 8.7rem;
+}
+
+.search input {
+  width: 46.2rem;
+  height: 4.8rem;
+  border-radius: 5px;
+  background: var(--green-500);
+  border: 0;
+  padding: 0 1rem;
+}
+
+.search {
+  display: flex;
+  gap: .8rem;
+  align-items: center;
+}
+
+.search input {
+  color: var(--text-color);
+}
+
+.search button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .9rem;
+  width: 17rem;
+  height: 4.8rem;
+  border-radius: 5px;
+  background: var(--bg-button);
+  border: 0;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: ease .2s;
+  text-transform: uppercase;
+}
+
+.search button:hover {
+  background: #FFF;
+  color: #065E7C;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table * {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+table th:first-child {
+  border-top-left-radius: 5px;
+}
+
+table th:last-child {
+  border-top-right-radius: 5px;
+}
+
+table thead {
+  background: #092D38;
+  height: 6.4rem;
+}
+
+table th {
+  padding: 0 4rem;
+  text-align: left;
+}
+
+tbody img {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.user a {
+  text-decoration: none;
+}
+
+.user p {
+  margin-bottom: .8rem;
+}
+
+.repositories {
+  margin-bottom: .8rem;
+}
+
+table td {
+  padding: 1.5rem 4rem;
+}
+
+tbody tr:nth-child(odd) {
+  background: var(--green-900);
+}
+
+tbody tr:nth-child(even) {
+  background: var(--green-500);
+}
+
+.notFav {
+  height: 62.2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.notFav img {
+  width: 13rem;
+  height: 12rem;
+}
+
+.notFav h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #4E5455;
+}
+
+.noFav {
+  border-radius: 0 0 5px 5px;
+}
+
+.remove {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
