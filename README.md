@@ -31,8 +31,10 @@ GitFav é uma aplicação feita para guardar seus perfis do github preferidos, n
 
 ## 📝 Link
 
-Esse projeto pode ser acessado através de: (https://gitfavdkid.netlify.app)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
+---
+* **Link para o projeto** - [GitFav](https://gitfavdkid.netlify.app)
 ---
 
 Feito com ♥ by Diegodkid :wave: 
