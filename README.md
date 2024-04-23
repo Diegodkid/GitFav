@@ -29,9 +29,9 @@ Conceitos
 
 GitFav é uma aplicação feita para guardar seus perfis do github preferidos, na aplicação é possivel adicionar e remover usuarios salvando as alterações no localStorage feita durante o curso explorer da Rocketseat para praticar conceitos apresentados durante as aulas
 
-## 📝 Licença
+## 📝 Link
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Esse projeto pode ser acessado através de: (https://gitfavdkid.netlify.app)
 
 ---
 
