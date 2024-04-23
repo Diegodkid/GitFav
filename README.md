@@ -22,11 +22,12 @@ Conceitos
 
 - Assíncrono e promises;
 - Orientação a objetos;
+- LocalStorage
 - Classes e muito mais.
 
 ## 💻 Projeto
 
-GitFav é uma aplicação feita para guardar seus perfis do github preferidos, feita durante o curso explorer da Rocketseat para praticar conceitos apresentados durante as aulas
+GitFav é uma aplicação feita para guardar seus perfis do github preferidos, na aplicação é possivel adicionar e remover usuarios salvando as alterações no localStorage feita durante o curso explorer da Rocketseat para praticar conceitos apresentados durante as aulas
 
 ## 📝 Licença
 
